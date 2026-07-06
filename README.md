@@ -1,4 +1,4 @@
-# 🌌 CosmicAI — Exoplanet Discovery Agent
+# CosmicAI: Exoplanet Discovery Agent
 
 **NASA Space Apps Challenge 2024 - Exoplanet Detection Using Machine Learning**
 
@@ -18,23 +18,23 @@ While thousands of exoplanets have been discovered through missions like Kepler,
 
 ### For the NASA Challenge
 
-✅ **Trained on NASA's Open Data**: Uses Kepler, K2, and TESS mission datasets
-✅ **Web Interface**: User-friendly platform for uploading and analyzing data
-✅ **Automated Classification**: ML model eliminates manual analysis
-✅ **Model Statistics Display**: Shows accuracy, confidence, and feature importances
-✅ **Real Discovery Potential**: Analyzes new data to find previously unknown exoplanets
+ **Trained on NASA's Open Data**: Uses Kepler, K2, and TESS mission datasets
+ **Web Interface**: User-friendly platform for uploading and analyzing data
+ **Automated Classification**: ML model eliminates manual analysis
+ **Model Statistics Display**: Shows accuracy, confidence, and feature importances
+ **Real Discovery Potential**: Analyzes new data to find previously unknown exoplanets
 
 ### Technical Features
 
-- 🔬 **Upload Light Curves**: Analyze CSV files containing time-series flux data
-- 🤖 **ML Classification**: Random Forest model (~79% accuracy) trained on NASA-labeled planets
-- 📊 **Feature Extraction**: Automatically extracts orbital period, radius, transit depth, and SNR
-- 📈 **Phase-Folded Plots**: Visualize transit signatures with interactive Plotly charts
-- 💾 **Database Integration**: Store discovered planets in Supabase with confidence scores
-- 🌐 **Modern Web UI**: Responsive interface with real-time analysis results
-- 🎯 **True Discovery**: Find planets that may not be in NASA's databases yet
-- ⚡ **Fast Analysis**: Instant classification with fallback to rule-based systems
-- 🔄 **Retrainable**: Easily update the model with fresh NASA data
+-  **Upload Light Curves**: Analyze CSV files containing time-series flux data
+-  **ML Classification**: Random Forest model (~79% accuracy) trained on NASA-labeled planets
+-  **Feature Extraction**: Automatically extracts orbital period, radius, transit depth, and SNR
+-  **Phase-Folded Plots**: Visualize transit signatures with interactive Plotly charts
+-  **Database Integration**: Store discovered planets in Supabase with confidence scores
+-  **Modern Web UI**: Responsive interface with real-time analysis results
+-  **True Discovery**: Find planets that may not be in NASA's databases yet
+-  **Fast Analysis**: Instant classification with fallback to rule-based systems
+-  **Retrainable**: Easily update the model with fresh NASA data
 
 ## Project Structure
 
@@ -63,15 +63,15 @@ exoplanet_discovery_agent_js/
 1. Open `http://localhost:3000` in your browser
 2. Click "Choose File" and upload a CSV file with light curve data
 3. (Optional) Enter a planet ID like "TIC-12345"
-4. Click "🔍 Analyze Light Curve"
+4. Click " Analyze Light Curve"
 
 **What happens during analysis:**
-1. 📁 CSV file is parsed for time and flux columns
-2. 📊 Features are extracted (period, radius, depth, SNR)
-3. 🤖 ML model classifies the transit signal
-4. 📈 Phase-folded light curve plot is generated
-5. 💾 If Confirmed or Candidate (>50% confidence), planet is stored in database
-6. ✨ Results are displayed with classification and confidence score
+1.  CSV file is parsed for time and flux columns
+2.  Features are extracted (period, radius, depth, SNR)
+3.  ML model classifies the transit signal
+4.  Phase-folded light curve plot is generated
+5.  If Confirmed or Candidate (>50% confidence), planet is stored in database
+6.  Results are displayed with classification and confidence score
 
 ## Feature Extraction
 
@@ -196,15 +196,15 @@ This project was created for the NASA Hackathon.
 
 This project addresses all NASA Space Apps Challenge objectives:
 
-- ✅ **Trained on NASA Open Data**: Uses Kepler, K2, and TESS datasets from NASA Exoplanet Archive
-- ✅ **Automated ML Classification**: Random Forest model with 79% accuracy
-- ✅ **Web Interface**: Full-stack application for user interaction
-- ✅ **Upload New Data**: Users can upload CSV light curves for analysis
-- ✅ **Model Statistics**: Displays accuracy, confidence scores, and feature importances
-- ✅ **Database Storage**: Tracks all discovered planets with metadata
-- ✅ **Open Source**: Uses Python, scikit-learn, Node.js, and open-source tools
-- ✅ **Extensible**: Model can be retrained with new NASA data
-- ✅ **User-Friendly**: Designed for both researchers and astronomy enthusiasts
+-  **Trained on NASA Open Data**: Uses Kepler, K2, and TESS datasets from NASA Exoplanet Archive
+-  **Automated ML Classification**: Random Forest model with 79% accuracy
+-  **Web Interface**: Full-stack application for user interaction
+-  **Upload New Data**: Users can upload CSV light curves for analysis
+-  **Model Statistics**: Displays accuracy, confidence scores, and feature importances
+-  **Database Storage**: Tracks all discovered planets with metadata
+-  **Open Source**: Uses Python, scikit-learn, Node.js, and open-source tools
+-  **Extensible**: Model can be retrained with new NASA data
+-  **User-Friendly**: Designed for both researchers and astronomy enthusiasts
 
 ## Why This Approach Works
 
