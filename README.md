@@ -1,4 +1,4 @@
-# 🌌 Exoplanet Discovery Agent
+# 🌌 CosmicAI — Exoplanet Discovery Agent
 
 **NASA Space Apps Challenge 2024 - Exoplanet Detection Using Machine Learning**
 
